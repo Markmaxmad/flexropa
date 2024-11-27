@@ -1,0 +1,309 @@
+*{
+  font-family: montserrat;
+}
+body{
+    background-color: rgb(235, 245, 247);
+    justify-content: center;
+}
+.contenedor{
+    padding: 100px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    text-align: center;
+    .caja1{
+        cursor: pointer;
+        background-color: white;
+        box-shadow: 1px 25px 50px rgba(0, 0, 70, 0.596);
+        width: 350px;
+        height: 600px;
+        border-radius: 5px;
+        .cuadrito1{
+            margin: auto;
+            position: relative;
+            top: 40px;
+            background-color:  rgb(235, 245, 247);
+            width: 300px;
+            height: 190px;
+        }
+            .reloj{
+                z-index: 1;
+               height: 300px;
+               position: relative;
+               bottom: 40px;
+            }
+            .sombra{
+                width: 160px;
+                height: 20px;
+                position: relative;
+                margin: auto;
+                bottom: 130px;
+                border-radius: 100%;
+                box-shadow: 1px 40px 30px rgba(0, 0, 0, 0.466);
+            }
+            .circulito1{
+                background-color: rgb(6, 6, 110);
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                position: absolute;
+                top: 165px;
+                left: 10px;
+            }
+        .p1{
+           position: relative;
+           top: 80px;
+           color: black;
+           font-weight: bold;
+           font-size: 25px;
+           letter-spacing: 4px;
+        }
+        .p2{
+            color: black;
+            margin: auto;
+            position: relative;
+            top: 70px;
+            width: 300px;
+            font-weight: 400;
+        }
+        .p3{
+            margin: auto;
+            width: 100px;
+            position: relative;
+            top: 100px;
+            font-size: 50px;
+            font-weight: bold;
+            color: rgb(6, 6, 110);
+        }
+        .estrellas{
+            position: relative;
+            margin: auto;
+            width: 100px;
+            top: 125px;
+        }
+        a{
+          position: relative;
+          top: 141px;
+            .boton{
+              background-color: rgb(6, 6, 110);
+              color: white;
+              font-weight: bold;
+              font-size: 16px;
+              width: 350px;
+              height: 70px;
+              border: none;
+            }
+        }
+    }
+    .caja1:hover{
+        .circulito1{
+            background-color: black;
+            transition: 1s;
+        }
+        .p3{
+            color: black;
+            transition: 1s;
+        }
+        .boton{
+             background-color: black;
+            transition: 1s;
+        }
+    }
+    .caja2{
+        cursor: pointer;
+        background-color: white;
+        box-shadow: 1px 25px 50px rgb(226, 0, 0);
+        width: 350px;
+        height: 600px;
+        border-radius: 5px;
+        .cuadrito1{
+            margin: auto;
+            position: relative;
+            top: 40px;
+            background-color:  rgb(235, 245, 247);
+            width: 300px;
+            height: 190px;
+        }
+            .tenis{
+                z-index: 1;
+               height: 270px;
+               position: relative;
+               bottom: 35px;
+            }
+            .sombra{
+                width: 200px;
+                height: 20px;
+                position: relative;
+                margin: auto;
+                left: 50px;
+                bottom: 100px;
+                border-radius: 100%;
+                box-shadow: 1px 40px 30px rgba(0, 0, 0, 0.466);
+            }
+            .circulito1{
+                background-color: rgb(226, 0, 0);
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                position: absolute;
+                top: 165px;
+                left: 10px;
+            }
+        .p1{
+           position: relative;
+           top: 80px;
+           color: black;
+           font-weight: bold;
+           font-size: 25px;
+           letter-spacing: 4px;
+        }
+        .p2{
+            color: black;
+            margin: auto;
+            position: relative;
+            top: 70px;
+            width: 300px;
+            font-weight: 400;
+        }
+        .p3{
+            margin: auto;
+            width: 100px;
+            position: relative;
+            top: 100px;
+            font-size: 50px;
+            font-weight: bold;
+            color: rgb(226, 0, 0);
+        }
+        .estrellas{
+            position: relative;
+            margin: auto;
+            width: 100px;
+            top: 125px;
+        }
+        a{
+          position: relative;
+          top: 141px;
+            .boton{
+              background-color: rgb(226, 0, 0);
+              color: white;
+              font-weight: bold;
+              font-size: 16px;
+              width: 350px;
+              height: 70px;
+              border: none;
+            }
+        }
+    } 
+    .caja2:hover{
+        .circulito1{
+           background-color: black;
+           transition: 1s;
+         }
+        .p3{
+           color: black;
+           transition: 1s;
+         }
+        .boton{
+           background-color: black;
+           transition: 1s;
+         }
+    }
+    .caja3{
+        cursor: pointer;
+        background-color: white;
+        box-shadow: 1px 25px 50px rgb(18, 170, 12);
+        width: 350px;
+        height: 600px;
+        border-radius: 5px;
+        .cuadrito1{
+            margin: auto;
+            position: relative;
+            top: 40px;
+            background-color:  rgb(235, 245, 247);
+            width: 300px;
+            height: 190px;
+        }
+            .sueter{
+               height: 260px;
+               position: relative;
+               bottom: 35px;
+            }
+            .sombra{
+                width: 200px;
+                height: 20px;
+                position: relative;
+                margin: auto;
+                bottom: 100px;
+                border-radius: 100%;
+                box-shadow: 1px 40px 30px rgba(0, 0, 0, 0.466);
+            }
+            .circulito1{
+                background-color: rgb(18, 170, 12);
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                position: absolute;
+                top: 165px;
+                left: 10px;
+            }
+        .p1{
+           position: relative;
+           top: 80px;
+           color: black;
+           font-weight: bold;
+           font-size: 25px;
+           letter-spacing: 4px;
+        }
+        .p2{
+            color: black;
+            margin: auto;
+            position: relative;
+            top: 70px;
+            width: 300px;
+            font-weight: 400;
+        }
+        .p3{
+            margin: auto;
+            width: 100px;
+            position: relative;
+            top: 100px;
+            font-size: 50px;
+            font-weight: bold;
+            color: rgb(18, 170, 12);
+        }
+        .estrellas{
+            position: relative;
+            margin: auto;
+            width: 100px;
+            top: 125px;
+        }
+        a{
+          position: relative;
+          top: 141px;
+            .boton{
+              background-color: rgb(18, 170, 12);
+              color: white;
+              font-weight: bold;
+              font-size: 16px;
+              width: 350px;
+              height: 70px;
+              border: none;
+            }
+        }
+    } 
+    .caja3:hover{
+        .circulito1{
+           background-color: black;
+           transition: 1s;
+         }
+        .p3{
+           color: black;
+           transition: 1s;
+         }
+        .boton{
+           background-color: black;
+           transition: 1s;
+         } 
+    }  
+}
+
